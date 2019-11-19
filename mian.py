@@ -1,6 +1,6 @@
 # coding: utf-8
 import tensorflow as tf
-from sklearn.datasets import load_boston
+# from sklearn.datasets import load_boston
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import scale
 from sklearn.model_selection import train_test_split
@@ -12,12 +12,12 @@ import numpy as np
 from itertools import islice
 data_X = []
 data_Y = []
-with open ('data/boston_house_prices.csv') as f:
+with open('data/boston_house_prices.csv') as f:
     for line in islice(f, 0, None):
         line = line.split(',')
         data_X.append(line[:-1])
         data_Y.append(line[-1:])
-# 转换为nparray
+# 转换为np array
 data_X = np.array(data_X, dtype='float32')
 data_Y = np.array(data_Y, dtype='float32')
 print('data shape', data_X.shape, data_Y.shape)
@@ -61,9 +61,11 @@ keep_prob_s = tf.placeholder(dtype=tf.float32)
 with tf.name_scope("layer_1"):
     l1 = add_layer(xs,13,100,activation_function=tf.nn.relu)
 with tf.name_scope("layer_2"):
-    l2 = add_layer(l1,100,10,activation_function=tf.nn.relu)
+    l2 = add_layer(l1,100,200,activation_function=tf.nn.relu)
+with tf.name_scope("layer_3"):
+    l3 = add_layer(l2,200,10,activation_function=tf.nn.relu)
 with tf.name_scope("y_pred"):
-    pred = add_layer(l2,10,1)
+    pred = add_layer(l3,10,1)
 
 # 这里多于的操作，是为了保存pred的操作，做恢复用。我只知道这个笨方法。
 pred = tf.add(pred,0,name='pred')
@@ -86,7 +88,7 @@ plt.show()
 
 # parameters
 keep_prob = 0.5  # 防止过拟合，取值一般在0.5到0.8。
-ITER = 50000  # 训练次数
+ITER = 20000  # 训练次数
 
 
 # 训练定义
@@ -145,7 +147,6 @@ def test(X, y,  keep_prob):
         plt.show()
 
 
-
 def get_batch(image, label, batch_size, now_batch, total_batch):
     if now_batch < total_batch:
         image_batch = image[now_batch*batch_size:(now_batch+1)*batch_size]
@@ -154,5 +155,7 @@ def get_batch(image, label, batch_size, now_batch, total_batch):
         image_batch = image[now_batch*batch_size:]
         label_batch = label[now_batch*batch_size:]
     return image_batch, label_batch
+
+
 fit(X=X_train, y=y_train, n=ITER, keep_prob=keep_prob, ax=ax)
 test(X=X_test, y=y_test, keep_prob=1)
