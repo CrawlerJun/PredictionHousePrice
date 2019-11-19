@@ -59,11 +59,11 @@ ys = tf.placeholder(shape=[None,1],dtype=tf.float32,name="y_true")
 keep_prob_s = tf.placeholder(dtype=tf.float32)
 
 with tf.name_scope("layer_1"):
-    l1 = add_layer(xs,13,10,activation_function=tf.nn.relu)
-# with tf.name_scope("layer_2"):
-#     l2 = add_layer(l1,6,10,activation_function=tf.nn.relu)
+    l1 = add_layer(xs,13,100,activation_function=tf.nn.relu)
+with tf.name_scope("layer_2"):
+    l2 = add_layer(l1,100,10,activation_function=tf.nn.relu)
 with tf.name_scope("y_pred"):
-    pred = add_layer(l1,10,1)
+    pred = add_layer(l2,10,1)
 
 # 这里多于的操作，是为了保存pred的操作，做恢复用。我只知道这个笨方法。
 pred = tf.add(pred,0,name='pred')
