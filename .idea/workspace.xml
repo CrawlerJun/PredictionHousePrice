@@ -1,60 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a250fbb-b6ed-441c-9830-a9376ce55816" name="Default Changelist" comment="fixup! ok">
-      <change afterPath="$PROJECT_DIR$/.idea/PredictionHousePrice.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nn_boston_log/events.out.tfevents.1574163464.admindeMacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nn_boston_log/events.out.tfevents.1574164329.admindeMacBook-Pro.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mian.py" beforeDir="false" afterPath="$PROJECT_DIR$/mian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/checkpoint" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.meta" afterDir="false" />
+    <list default="true" id="3a250fbb-b6ed-441c-9830-a9376ce55816" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mian.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
+            <state relative-caret-position="326">
+              <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="e#16#39#0" expanded="true" />
               </folding>
@@ -172,7 +120,7 @@
       <option name="presentableId" value="Default" />
       <updated>1574162509824</updated>
       <workItem from="1574162534490" duration="2130000" />
-      <workItem from="1574670201174" duration="191000" />
+      <workItem from="1574670201174" duration="1612000" />
     </task>
     <task id="LOCAL-00001" summary="ok">
       <created>1574162775922</created>
@@ -195,17 +143,44 @@
       <option name="project" value="LOCAL" />
       <updated>1574670292326</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fixup! ok">
+      <created>1574670413773</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574670413773</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fixup! ok">
+      <created>1574670478131</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574670478131</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fixup! ok">
+      <created>1574671040898</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574671040899</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fixup! ok">
+      <created>1574681046580</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1574681046580</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2321000" />
+    <option name="totallyTimeSpent" value="3742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24583334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -218,7 +193,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.32079905" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -292,8 +267,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mian.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
+        <state relative-caret-position="326">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="e#16#39#0" expanded="true" />
           </folding>
