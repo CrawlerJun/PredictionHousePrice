@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3a250fbb-b6ed-441c-9830-a9376ce55816" name="Default Changelist" comment="fixup! ok">
+      <change afterPath="$PROJECT_DIR$/.idea/PredictionHousePrice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nn_boston_log/events.out.tfevents.1574163464.admindeMacBook-Pro.local" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nn_boston_log/events.out.tfevents.1574164329.admindeMacBook-Pro.local" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mian.py" beforeDir="false" afterPath="$PROJECT_DIR$/mian.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/checkpoint" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/checkpoint" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48600.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48700.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48800.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-48900.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49000.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49100.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49200.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49300.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49400.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49500.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49600.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49700.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49800.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-49900.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.data-00000-of-00001" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.index" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.meta" beforeDir="false" afterPath="$PROJECT_DIR$/nn_boston_model/nn_boston.model-50000.meta" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mian.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
+              <folding>
+                <element signature="e#16#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mian.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PredictionHousePrice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PredictionHousePrice" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="mian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PredictionHousePrice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mian" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3a250fbb-b6ed-441c-9830-a9376ce55816" name="Default Changelist" comment="" />
+      <created>1574162509824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574162509824</updated>
+      <workItem from="1574162534490" duration="2130000" />
+      <workItem from="1574670201174" duration="191000" />
+    </task>
+    <task id="LOCAL-00001" summary="ok">
+      <created>1574162775922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574162775922</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ok">
+      <created>1574162958029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574162958029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixup! ok">
+      <created>1574670292326</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574670292326</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2321000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ok" />
+    <MESSAGE value="fixup! ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixup! ok" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PredictionHousePrice$mian.coverage" NAME="mian Coverage Results" MODIFIED="1574165524698" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="24" column="98" selection-start-line="24" selection-start-column="98" selection-end-line="24" selection-end-column="98" />
+          <folding>
+            <element signature="e#16#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
