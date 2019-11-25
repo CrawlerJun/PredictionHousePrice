@@ -22,7 +22,20 @@ data_X = np.array(data_X, dtype='float32')
 data_Y = np.array(data_Y, dtype='float32')
 print('data shape', data_X.shape, data_Y.shape)
 print('data_x shape[1]', data_X.shape[1])
+# # 归一化
+# for i in range(data_X.shape[1]):
+#     _min = np.min(data_X[:, i])                            # 每一列的最小值
+#     _max = np.max(data_X[:, i])                            # 每一列的最大值
+#     data_X[:, i] = (data_X[:, i] - _min) / (_max - _min)   # 归一化到0-1之间
+#
+# data_X = scale(data_X)
+# data_Y = scale(data_Y).reshape((-1,1))
 X_train, X_test, y_train, y_test = train_test_split(data_X, data_Y, test_size=0.5, random_state=1)
+# X_train, X_test, y_train, y_test = train_test_split(boston.data, boston.target, test_size=0.1, random_state=0)
+# X_train = scale(X_train)
+# X_test = scale(X_test)
+# y_train = scale(y_train.reshape((-1, 1)))
+# y_test = scale(y_test.reshape((-1, 1)))
 mean = X_train.mean(axis = 0)
 std = X_train.std(axis = 0)
 X_train -= mean
