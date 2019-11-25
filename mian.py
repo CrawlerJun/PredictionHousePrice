@@ -22,26 +22,33 @@ data_X = np.array(data_X, dtype='float32')
 data_Y = np.array(data_Y, dtype='float32')
 print('data shape', data_X.shape, data_Y.shape)
 print('data_x shape[1]', data_X.shape[1])
-# 归一化
-for i in range(data_X.shape[1]):
-    _min = np.min(data_X[:, i])                            # 每一列的最小值
-    _max = np.max(data_X[:, i])                            # 每一列的最大值
-    data_X[:, i] = (data_X[:, i] - _min) / (_max - _min)   # 归一化到0-1之间
-
-X_train, X_test, y_train, y_test = train_test_split(data_X, data_Y, test_size=0.5, random_state=0)
+# # 归一化
+# for i in range(data_X.shape[1]):
+#     _min = np.min(data_X[:, i])                            # 每一列的最小值
+#     _max = np.max(data_X[:, i])                            # 每一列的最大值
+#     data_X[:, i] = (data_X[:, i] - _min) / (_max - _min)   # 归一化到0-1之间
+#
+# data_X = scale(data_X)
+# data_Y = scale(data_Y).reshape((-1,1))
+X_train, X_test, y_train, y_test = train_test_split(data_X, data_Y, test_size=0.5, random_state=1)
 # X_train, X_test, y_train, y_test = train_test_split(boston.data, boston.target, test_size=0.1, random_state=0)
-X_train = scale(X_train)
-X_test = scale(X_test)
-y_train = scale(y_train.reshape((-1, 1)))
-y_test = scale(y_test.reshape((-1, 1)))
-
+# X_train = scale(X_train)
+# X_test = scale(X_test)
+# y_train = scale(y_train.reshape((-1, 1)))
+# y_test = scale(y_test.reshape((-1, 1)))
+mean = X_train.mean(axis = 0)
+std = X_train.std(axis = 0)
+X_train -= mean
+X_train /= std
+X_test -= mean
+X_test /= std
 
 # 使网络更灵活
 def add_layer(inputs,input_size,output_size,activation_function=None):
     with tf.variable_scope("Weights"):
         Weights = tf.Variable(tf.random_normal(shape=[input_size, output_size]), name="weights")
     with tf.variable_scope("biases"):
-        biases = tf.Variable(tf.zeros(shape=[1,output_size]) + 0.1,name="biases")
+        biases = tf.Variable(tf.zeros(shape=[1,output_size]) ,name="biases")
     with tf.name_scope("Wx_plus_b"):
         Wx_plus_b = tf.matmul(inputs,Weights) + biases
     with tf.name_scope("dropout"):
@@ -59,13 +66,13 @@ ys = tf.placeholder(shape=[None,1],dtype=tf.float32,name="y_true")
 keep_prob_s = tf.placeholder(dtype=tf.float32)
 
 with tf.name_scope("layer_1"):
-    l1 = add_layer(xs,13,100,activation_function=tf.nn.relu)
+    l1 = add_layer(xs,13,200,activation_function=tf.nn.relu)
 with tf.name_scope("layer_2"):
-    l2 = add_layer(l1,100,200,activation_function=tf.nn.relu)
-with tf.name_scope("layer_3"):
-    l3 = add_layer(l2,200,10,activation_function=tf.nn.relu)
+    l2 = add_layer(l1,200,300,activation_function=tf.nn.relu)
+# with tf.name_scope("layer_3"):
+#     l3 = add_layer(l2,500,64,activation_function=tf.nn.relu)
 with tf.name_scope("y_pred"):
-    pred = add_layer(l3,10,1)
+    pred = add_layer(l2,300,1)
 
 # 这里多于的操作，是为了保存pred的操作，做恢复用。我只知道这个笨方法。
 pred = tf.add(pred,0,name='pred')
@@ -74,8 +81,8 @@ with tf.name_scope("loss"):
     loss = tf.reduce_mean(tf.reduce_sum(tf.square(ys - pred),reduction_indices=[1]))  # mse
     tf.summary.scalar("loss",tensor=loss)
 with tf.name_scope("train"):
-    # train_op =tf.train.GradientDescentOptimizer(learning_rate=0.01).minimize(loss)
-    train_op = tf.train.AdamOptimizer(learning_rate=0.0001).minimize(loss)
+    #train_op =tf.train.GradientDescentOptimizer(learning_rate=0.01).minimize(loss)
+    train_op = tf.train.AdamOptimizer(learning_rate=0.01).minimize(loss)
 
 # 可视化
 # draw pics
@@ -87,12 +94,13 @@ plt.ion()
 plt.show()
 
 # parameters
-keep_prob = 0.5  # 防止过拟合，取值一般在0.5到0.8。
-ITER = 20000  # 训练次数
+keep_prob = 0.9  # 防止过拟合，取值一般在0.5到0.8。
+ITER = 5000  # 训练次数
 
 
 # 训练定义
 def fit(X, y, ax, n, keep_prob):
+    print(y)
     init = tf.global_variables_initializer()
     feed_dict_train = {ys: y, xs: X, keep_prob_s: keep_prob}
     with tf.Session() as sess:
@@ -118,7 +126,6 @@ def fit(X, y, ax, n, keep_prob):
         saver.save(sess=sess, save_path="nn_boston_model/nn_boston.model", global_step=n)  # 保存模型
 
 
-
 def test(X, y,  keep_prob):
     with tf.Session() as sess:
         saver = tf.train.Saver(tf.global_variables(), max_to_keep=15)
@@ -141,9 +148,11 @@ def test(X, y,  keep_prob):
             y_pre.append(test_accuracy[0][0])
             x_test_batch_list.append(x_test_batch)
         print('test_loss:' + str(np.mean(test_loss_list)))
-        print(y_pre)
-        plt.plot(range(test_total_batch),y_truly, 'r')
-        plt.plot(range(test_total_batch),y_pre, 'b')
+        print(y_pre[0:50])
+        print(y_truly[0:50])
+        plt.ylim((-5,50))
+        plt.plot(range(50),y_truly[:50], 'r')
+        plt.plot(range(50),y_pre[:50], 'b')
         plt.show()
 
 
