@@ -23,7 +23,6 @@ data_Y = np.array(data_Y, dtype='float32')
 print('data shape', data_X.shape, data_Y.shape)
 print('data_x shape[1]', data_X.shape[1])
 X_train, X_test, y_train, y_test = train_test_split(data_X, data_Y, test_size=0.5, random_state=1)
-
 mean = X_train.mean(axis = 0)
 std = X_train.std(axis = 0)
 X_train -= mean
